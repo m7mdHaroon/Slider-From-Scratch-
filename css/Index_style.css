@@ -1,0 +1,46 @@
+body 
+{
+    font-family:"segoe ui light";
+}
+.item .caption 
+{
+    font-weight : 100 ;
+    bottom : 10% ;
+    left : 5% ;
+    right : 10% ;
+}
+.item .caption h2 
+{
+    font-size : 1.5rem ;
+}
+.lightboxContainer 
+{
+    top : 0 ;
+    bottom: 0px ;
+    left : 0 ;
+    right : 0 ;
+    background-color : rgba(0,0,0,.7) ;
+    display : none !important ;
+}
+.lightboxContainer .lightboxItem 
+{
+    background-size : 100% 100% ;
+}
+#wClose 
+{
+    position : absolute ;
+    top : 20px ;
+    right : 20px ;
+}
+.show 
+{
+    display : flex !important ;
+}
+
+@media (max-width : 786px ) 
+{
+    .lightboxItem 
+    {
+        width : 90% !important ;
+    }
+}
